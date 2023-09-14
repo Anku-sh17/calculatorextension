@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap_5.3/css/bootstrap-grid.min.css" />
+    <!-- <link rel="stylesheet" href="extension.css" /> -->
+  </head>
+  <body>
+    <h1>Calories in McDonald's Sausage McMuffin with Egg</h1>
+    <div class="row">
+      <div class="col-md">
+        <input class="form-control" type="number" name="qnty" id="qnty" />
+        <label for="qnty">Quantity</label>
+      </div>
+      <div class="col-md text-center"></div>
+      <div class="col-md">
+        <select class="form-control" id="input" class="input">
+          <option value="1">sm</option>
+          <option value="2">lg</option>
+          <option value="3">big-lg</option>
+        </select>
+        <label for="serving">Serving</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md text-center">
+        <button type="button" id="Calculate">Calculate</button>
+      </div>
+    </div>
+    <div class="result">
+      <table>
+        <tr>
+          <th>Nutrient</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Calories</td>
+          <td id="calories">0</td>
+        </tr>
+        <tr>
+          <td>Energy</td>
+          <td id="energy">0</td>
+        </tr>
+        <tr>
+          <td>Total Fat</td>
+          <td id="totalfat">0</td>
+        </tr>
+        <tr>
+          <td>Saturated Fat</td>
+          <td id="satfat">0</td>
+        </tr>
+        <tr>
+          <td>Trans Fat</td>
+          <td id="transfat">0</td>
+        </tr>
+        <tr>
+          <td>Cholestrol</td>
+          <td id="cholestrol">0</td>
+        </tr>
+        <tr>
+          <td>Sodium</td>
+          <td id="sodium">0</td>
+        </tr>
+        <tr>
+          <td>Total Carbohydrate</td>
+          <td id="totalcarbs">0</td>
+        </tr>
+        <tr>
+          <td>Dietrary Fibres</td>
+          <td id="Diet">0</td>
+        </tr>
+        <tr>
+          <td>Sugars</td>
+          <td id="sugars">0</td>
+        </tr>
+        <tr>
+          <td>Protien</td>
+          <td id="protien">0</td>
+        </tr>
+        <tr>
+          <td>Calcium</td>
+          <td id="calcium">0</td>
+        </tr>
+        <tr>
+          <td>Iron</td>
+          <td id="iron">0</td>
+        </tr>
+      </table>
+    </div>
+    <script src="extension.js"></script>
+  </body>
+</html>

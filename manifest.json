@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "CanyouSubstitute",
+  "version": "1.0",
+  "description": "Calculators.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "extension.html"
+  }
+}
